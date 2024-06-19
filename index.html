@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="snap">
+
+    <!-- Desktop navigation menu -->
+    <nav id="desktop_nav">
+    </nav>
+
+    <button type="button" class="nav-toggle-button">
+      <img src="./images/icon-menu.svg" alt="menu-button">
+    </button>
+  </header>
+
+  <!-- Mobile navigation menu -->
+  <div class="mobile-nav-container">
+    <nav id="mobile-nav">
+      <button type="button">
+        <img src="./images/icon-close-menu.svg" alt="close-menu">
+      </button>
+
+      <ul class="mobile-nav-links">
+        <li>
+          <div class="mobile-nav-link--parent-container">
+            <span>Features</span>
+            <button type="button"><img src="./images/icon-arrow-up.svg" alt="arrow-up-icon"></button>
+          </div>
+          <ul class="mobile-nav-nested-links">
+            <li class="mobile-nav-nested-link">
+              <img src="./images/icon-todo.svg" alt="todo-list-icon">
+              <span>
+                Todo List
+              </span>
+            </li>
+            <li class="mobile-nav-nested-link">
+              <img src="./images/icon-calendar.svg" alt="calendar-icon">
+              <span>
+                Calendar
+              </span>
+            </li>
+            <li class="mobile-nav-nested-link">
+              <img src="./images/icon-reminders.svg" alt="reminder-icon">
+              <span>
+                Reminders
+              </span>
+            </li>
+            <li class="mobile-nav-nested-link">
+              <img src="./images/icon-planning.svg" alt="planning-icon">
+              <span>
+                Planning
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="mobile-nav-link--parent-container">
+            <span>Company</span>
+            <button type="button"><img src="./images/icon-arrow-up.svg" alt="arrow-up-icon"></button>
+          </div>
+          <ul class="mobile-nav-nested-links">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+
+      <div class="auth-buttons">
+        <button type="button">Login</button>
+        <button type="button" class="register-button">Register</button>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <img src="./images/image-hero-mobile.png" alt="hero-image-mobile">
+
+    <section class="about">
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button type="button">Learn more</button>
+    </section>
+
+    <section class="clients">
+      <img src="./images/client-databiz.svg" alt="databiz">
+      <img src="./images/client-audiophile.svg" alt="audiophile">
+      <img src="./images/client-meet.svg" alt="meet">
+      <img src="./images/client-maker.svg" alt="maker">
+    </section>
+
+  </main>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register -->
+
+
+
+
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
